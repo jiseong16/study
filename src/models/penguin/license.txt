@@ -1,0 +1,8 @@
+Model Information:
+* title:	Cute Penguin 3D Print
+* source:	https://sketchfab.com/3d-models/cute-penguin-3d-print-1b266e2710b24468aeacd6238c124ea0
+* author:	Lucas Nunes 3D (https://sketchfab.com/lucasnunes3d)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
