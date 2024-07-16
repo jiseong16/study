@@ -7,7 +7,6 @@ export default function printTangerine() {
     const normal = loader.load('../../src/textures/tangerine/Orange_001_NORM.jpg')
     const rough = loader.load('../../src/textures/tangerine/Orange_001_ROUGH.jpg')
 
-
     const tangerine = new THREE.Group();
     const body = new THREE.Group();
 
@@ -54,12 +53,11 @@ export default function printTangerine() {
     }
 
     tangerine.add(leaves);
-    
+
     for (const mesh of leaves.children) {
         mesh.castShadow = true;
         mesh.receiveShadow = true
     }
-
 
     return tangerine
 

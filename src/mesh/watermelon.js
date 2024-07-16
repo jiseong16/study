@@ -10,7 +10,6 @@ export default function printWatermelon () {
     const watermelon = new THREE.Group();
     const body = new THREE.Group();
 
-
     const bodyGeometry = new THREE.DodecahedronGeometry(2, 5); 
     const bodyMaterial = new THREE.MeshStandardMaterial({
         color: 0x008000,

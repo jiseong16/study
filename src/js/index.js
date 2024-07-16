@@ -1,11 +1,14 @@
 import * as THREE from "three";
 // import WebGL from "../../node_modules/three/examples/jsm/capabilities/WebGL.js"
-import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
+// import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+// import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+// import { OrbitControls } from "https://threejs.org/examples/jsm/controls/OrbitControls.js";
 import printIsland from "../mesh/island.js";
 import printTree from "../mesh/tree.js";
 import printTangerine from "../mesh/tangerine.js";
 import printWatermelon from "../mesh/watermelon.js";
-import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
+import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
+import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 
 // Scene
 const scene = new THREE.Scene();
@@ -88,11 +91,11 @@ function animate() {
 animate();
 
 // 반응형 시 
-// window.addEventListener('resize',() => {
-//     // 1. 카메라 종횡비 
-//     camera.aspect = window.innerWidth / window.innerHeight;
-//     camera.updateProjectionMatrix(); // 카메라 업데이트
+window.addEventListener('resize',() => {
+    // 1. 카메라 종횡비 
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix(); // 카메라 업데이트
     
-//     // 2. 렌더러의 크기 
-//     renderer.setSize(window.innerWidth, window.innerHeight);
-// })
+    // 2. 렌더러의 크기 
+    renderer.setSize(window.innerWidth, window.innerHeight);
+})

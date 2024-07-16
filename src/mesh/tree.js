@@ -46,7 +46,6 @@ export default function printTree() {
         mesh.receiveShadow = true
     }
 
-
     // 나뭇잎 그룹 형성 
     const treeLeaf = new THREE.Group();
 
