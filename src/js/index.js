@@ -69,7 +69,7 @@ scene.add(watermelon);
 //외부 모델 불러오기 
 const loader = new GLTFLoader();
 
-loader.load('../src/models/penguin/scene.gltf',(gltf) => {
+loader.load('https://jiseong16.github.io/study/src/models/penguin/scene.gltf',(gltf) => {
     const model = gltf.scene;
     model.position.set(3, 0.5, 5);
     model.scale.set(2, 2, 2);

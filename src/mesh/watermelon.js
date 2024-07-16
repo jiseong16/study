@@ -3,9 +3,9 @@ import * as THREE from "three";
 export default function printWatermelon () {
 
     const loader = new THREE.TextureLoader();
-    const baseColor = loader.load('../../src/textures/watermelon/Watermelon_001_basecolor.jpg');
-    const normal = loader.load('../../src/textures/watermelon/Watermelon_001_normal.jpg');
-    const rough = loader.load('../../src/textures/watermelon/Watermelon_001_roughness.jpg');
+    const baseColor = loader.load('https://jiseong16.github.io/study/src/textures/watermelon/Watermelon_001_basecolor.jpg');
+    const normal = loader.load('https://jiseong16.github.io/study/src/textures/watermelon/Watermelon_001_normal.jpg');
+    const rough = loader.load('https://jiseong16.github.io/study/src/textures/watermelon/Watermelon_001_roughness.jpg');
 
     const watermelon = new THREE.Group();
     const body = new THREE.Group();

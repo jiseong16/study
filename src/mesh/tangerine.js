@@ -3,9 +3,9 @@ import * as THREE from "three";
 export default function printTangerine() {
 
     const loader = new THREE.TextureLoader();
-    const baseColor = loader.load('../../src/textures/tangerine/Orange_001_COLOR.jpg');
-    const normal = loader.load('../../src/textures/tangerine/Orange_001_NORM.jpg')
-    const rough = loader.load('../../src/textures/tangerine/Orange_001_ROUGH.jpg')
+    const baseColor = loader.load('https://jiseong16.github.io/study/src/textures/tangerine/Orange_001_COLOR.jpg');
+    const normal = loader.load('https://jiseong16.github.io/study/src/textures/tangerine/Orange_001_NORM.jpg')
+    const rough = loader.load('https://jiseong16.github.io/study/src/textures/tangerine/Orange_001_ROUGH.jpg')
 
     const tangerine = new THREE.Group();
     const body = new THREE.Group();
